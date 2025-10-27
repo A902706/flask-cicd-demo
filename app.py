@@ -9,7 +9,8 @@ def home():
     return (
         "<h1>Hello from Flask CI/CD Demo v2!</h1>"
         "<p>Automatic Build → Test → Deploy via GitHub Actions.</p>"
-        "<p>This demonstrates the full Continuous Integration and Continuous Deployment (CI/CD).</p>"
+        "<p>This demonstrates the full Continuous Integration.</p>"
+        "<p>and Continuous Deployment (CI/CD).</p>"
     )
 
 
