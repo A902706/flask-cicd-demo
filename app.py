@@ -7,8 +7,9 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return (
-        "<h1>Hello from Flask CI/CD Demo v1!</h1>"
+        "<h1>Hello from Flask CI/CD Demo v2!</h1>"
         "<p>Automatic Build → Test → Deploy via GitHub Actions.</p>"
+        "<p>This demonstrates the full Continuous Integration and Continuous Deployment (CI/CD) cycle — every code change is automatically tested, built, and deployed with no manual steps.</p>"
     )
 
 
